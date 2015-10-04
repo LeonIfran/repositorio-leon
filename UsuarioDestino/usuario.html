@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <form class="" action="destino.php" method="post">
+    <label>Usuario </label>
+    <input type="text" name="txtUsuario" placeholder="Nombre"><br/>
+    <label>Password </label>
+    <input type="password" name="txtContraseña" placeholder="Contraseña"><br/>
+
+  <!--Field set con radio buttons de genero -->
+    <fieldset>
+      <legend>Sexo</legend>
+      <input type="radio" name="rdoSexo" value="Masculino">Masculino<br/>
+      <input type="radio" name="rdoSexo" value="Femenino">Femenino<br/>
+    </fieldset>
+    <!--Lista de provincias  -->
+  <label>Provincia </label>
+  <select name="lstProvincias">
+    <option value="Buenos Aires">Buenos Aires</option>
+    <option value="Santa Fe">Santa Fe</option>
+    <option value="Cordoba">Cordoba</option>
+  </select><br/>
+  <input type="checkbox" name="cboxTerminos" value="Aceptados">Acepto los terminos de Uso<br/>
+  <input type="checkbox" name="cboxPublicidad" value="Aceptada">Recibir publicidad<br/>
+  <input type="submit" name="btncargar" value="Cargar">
+  <input type="reset" name="btnLimpiar" value="Limpiar">
+  </form>
+
+</body>
+</html>
